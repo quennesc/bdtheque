@@ -1,0 +1,41 @@
+package bdtheque.modele;
+
+import java.util.List;
+
+public interface iBdtheque {
+  
+	
+	/**Renvoie la liste des albums de la bdtheque
+	 * 
+	 * @return List d'albums
+	 */
+	public List <Album> getAlbums();
+	
+	
+	/**Renvoie la liste des auteurs des albums de la bdtheque
+	 * 
+	 * @return List d'auteurs
+	 */
+	public List <String> getAuteurs();
+	
+	
+	/**Renvoie la liste des titres d'album de la bdtheque
+	 * 
+	 * @return List de titres
+	 */
+	public List <String> getTitres();
+	
+	
+	/**Renvoie la liste des editeurs des albums de la bdtheque
+	 * 
+	 * @return List de d'editeurs
+	 */
+	public List <String> getEditeurs();
+	
+	
+	/**Renvoie la liste des genres des albums de la bdtheque
+	 * 
+	 *@return List de genres 
+	 */
+	public List <String> getGenres();
+}
